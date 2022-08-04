@@ -3,7 +3,7 @@ import Being from '../../asset/Being.mp4'
 import './BeingHere.css'
 const BeingHere = () => {
           return (
-                    <div className='bg-blue-900'>
+                    <div className='bg-blue-800 hover:bg-blue-900'>
                          <h1 className='text-center font-bold text-6xl text-white p-24'>Being Here</h1>   
                          <video className=' mx-auto '  width="1150" height="700" controls autoPlay>
       <source src={Being} type="video/mp4"/>
@@ -11,11 +11,11 @@ const BeingHere = () => {
     
           <div className='bg-blue-100 '>
      <div class="card  m-24 text-white">
-  <div class="card-body">
-    <h2 class="card-title text-4xl text-blue-900 pt-10 ml-2">Show up, make incredible work, and live the life you want</h2>
-    <p className='text-2xl text-blue-900 p-3'>From day one, we’ve been committed to making Instrument a place where people can make the best work of their career — sustainably. This means working reasonable hours. Spending each day in a welcoming, inclusive environment. Taking vacations when you need them. We believe in doing everything we can to help our employees lead healthy, full lives. </p>
+  <div class="card-body mx-auto">
+    <h2 class="card-title text-5xl text-blue-900 pt-10 ml-2">Show up, make incredible work, and live the life you want</h2>
+    <p className='text-3xl text-blue-900 p-3'>From day one, we’ve been committed to making Instrument a place where people can make the best work of their career — sustainably. This means working reasonable hours. Spending each day in a welcoming, inclusive environment. Taking vacations when you need them. We believe in doing everything we can to help our employees lead healthy, full lives. </p>
     <div class="card-actions  text-center">
-      <button class="btn btn-primary p-3 m-3 ">Who We Are</button>
+      <button class="btn bg-blue-900 rounded-full p-3 m-3 ">Who We Are</button>
     </div>
   </div>
 </div>
@@ -103,11 +103,11 @@ const BeingHere = () => {
 </div>
 
 </div>
-<div className='bg-white pt-28'>
-<h1 class="text-5xl font-bold text-black text-center">Build . Grow . Serve</h1>
-<p className='text-center text-4xl mt-3 p-6'>We give every employee 16 hours of paid time each year to volunteer with non-profits of their choosing — collectively contributing 4800 hours to our community.</p>
+<div className='bg-white p-36'>
+<h1 class="text-6xl font-bold text-black text-center">Build . Grow . Serve</h1>
+<p className='text-center text-4xl mt-6 font-serif'>We give every employee 16 hours of paid time each year to volunteer with non-profits of their choosing — collectively contributing 4800 hours to our community.</p>
 <div className='mx-auto text-center justify-items-center justify-center align-middle'>
-          <button className='btn btn-active bg-white text-black mx-auto text-center justify-items-center justify-center align-middle'>Get in Touch</button>
+          <button className='btn btn-active mt-6 bg-black text-white rounded-full mx-auto text-center justify-items-center justify-center align-middle'>Get in Touch</button>
 </div>
 </div>
      

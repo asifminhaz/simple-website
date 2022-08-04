@@ -9,6 +9,7 @@ import Header from './Component/Header/Header';
 import Home from './Component/Home/Home';
 import Footer from './Component/Footer/Footer';
 import Articles from './Component/Articles';
+import NotFound from './Component/NotFound';
 function App() {
   return (
     <div className='full'>
@@ -21,6 +22,7 @@ function App() {
      <Route path='/beingHere' element={<BeingHere></BeingHere>}></Route>
      <Route path='/careers' element={<Career></Career>}></Route>
      <Route path='/articles' element={<Articles></Articles>}></Route>
+     <Route path='*' element={<NotFound></NotFound>}></Route>
      </Routes>
      <Footer></Footer>
     </div>
