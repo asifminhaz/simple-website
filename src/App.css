@@ -41,12 +41,12 @@
 }
 @media screen and (max-width: 688px) {
   html { 
-    font-size: 8px;
+    font-size: 10px;
   }
 }
 @media screen and (max-width: 488px) {
   html { 
-    font-size: 5px;
+    font-size: 7px;
   }
 }
 @media screen and (min-width: 768px) {
